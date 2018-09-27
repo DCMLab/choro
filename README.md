@@ -37,3 +37,41 @@ The analyses of our dataset support theoretical assertions about harmony and for
 * Chediak, A., Sève, M., Souza, R., Dininho. (2011a). Choro Songbook, volume 2. São Paulo: Lumiar Editora.
 * Chediak, A., Sève, M., Souza, R., Dininho. (2011b). Choro Songbook, volume 1. São Paulo: Lumiar Editora.
 * De Clercq T. & Temperley D. (2011). “A Corpus Analysis of Rock Harmony.” Popular Music, 30(1), 47-70.
+
+## Data Description
+
+The data is stored in `choro.csv`. It contains the following columns:
+
+**KEY AND METER**
+- `global_key`: global key per piece (e.g. `F`, `Dm`)
+- `local_key`: local key at chord position
+- `relative_key`: local key relative to the global key (e.g. `V`, `IIm`)
+- `global_mode`: either `major` or `minor`
+- `local_mode`: either `major` or `minor`
+- `global_meter`: global meter per piece (e.g. `2/2`)
+- `local_meter`: local meter at chord position
+    
+ **FORM**
+ - `path`: path from chord symbol to root node (e.g. `['P1', 'PartA', 'S']`)
+ - `phrase`: phrase of chord symbol (e.g. `P1`) 
+ - `part`: part of chord symbol (e.g. `PartA`)
+    
+**CHORDS**
+- `bar_no`: bar number 
+- `duration`: duration in quarter notes (e.g. `0.5` for a 1/2 note)
+- `chord`: chord symbol as transcribed
+- `root`: root note
+- `rn_chord`: Roman numeral chord symbol (e.g. `V7(b9)`)
+- `sd`: scale degree
+- `type`: chord type (e.g. `m`, `o`)
+- `added`: sixths and sevenths
+- `extensions`: other chord extensions
+- `bass_note`: bass note
+
+**METADATA**
+- `songbook`: songbook volume
+- `title`: title of the piece
+- `composer`: composer name(s)
+- `sub_genre`: sub-genre
+- `year`: year of composition (if available)
+- `filename`: filename of the transcription
