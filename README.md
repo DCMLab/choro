@@ -16,7 +16,7 @@ The impetus of digital musicology and computational music analysis in recent yea
 
 The data from all transcriptions is stored in `\data\choro.csv`. The individual transcriptions can be found in the `\data\transcriptions` folder. It contains the following columns:
 
-**KEY AND METER**
+**Key and Meter**
 - `global_key`: global key per piece (e.g. `F`, `Dm`)
 - `local_key`: local key at chord position
 - `relative_key`: local key relative to the global key (e.g. `V`, `IIm`)
@@ -25,12 +25,12 @@ The data from all transcriptions is stored in `\data\choro.csv`. The individual 
 - `global_meter`: global meter per piece (e.g. `2/2`)
 - `local_meter`: local meter at chord position
     
- **FORM**
+ **Form**
  - `path`: path from chord symbol to root node (e.g. `['P1', 'PartA', 'S']`)
  - `phrase`: phrase of chord symbol (e.g. `P1`) 
  - `part`: part of chord symbol (e.g. `PartA`)
     
-**CHORDS**
+**Chords**
 - `bar_no`: bar number 
 - `duration`: duration in quarter notes (e.g. `0.5` for a 1/2 note)
 - `chord`: chord symbol as transcribed
@@ -42,7 +42,7 @@ The data from all transcriptions is stored in `\data\choro.csv`. The individual 
 - `extensions`: other chord extensions
 - `bass_note`: bass note
 
-**METADATA**
+**Metadata**
 - `songbook`: songbook volume
 - `title`: title of the piece
 - `composer`: composer name(s)
