@@ -1,0 +1,13 @@
+P0: NC | |
+P1: F | F/A | F F(#5) | Gm/D Eb | Gm Gm(7M) | Gm7 Gm6 | Gm Eb | C7/E F7 | Bb7M | Bbm6 | Am | D7 | G7 | C7 |
+P2:  F/C | |
+
+P3: Fm Fm(7M) | Fm7 Fm6 | Bbm Bbm(7M) | Bb7 Bbm6 | Bbm Bb(7M) | Bbm7 C7 | Fm C7/G | Fm/Ab F7/A | Bbm | Eb7 | Ab Abm | Db7 | Gb7 | C7 | Fm C7/G | Fm/Ab F7/A | Bbm | Eb7 | Ab Abm | Db7 | Gb7 | C7 | F |
+P4: C7 |
+
+P6: F6(9) | | Gb6(9) | | F6(9) | | NC | | |
+
+PartA: $P1 $P2
+PartB[Fm]: $P3 $P4
+
+S[F, 2/4]: $P0 $PartA $PartB $PartA $PartB $P1 $P6

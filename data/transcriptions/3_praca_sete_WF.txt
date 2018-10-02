@@ -1,0 +1,13 @@
+P1: F#7 B7 | E/G# Go | F#m7 B7 | E | F#7 B7 | E/G# E | B/F# F#7 | F#m6 B7/F# | F#7 B7 | E/G# Go | F#m7 B7 | C#7/G# | F#m/A A#o | E/B C7 | F7 B7 |
+P2: E |
+
+P3: F#7(13) F7(13) | E | F#7(13) F7(13) | Bm7 E7 |
+P4: A D7 | G7 C7 | F7 B7 | E |
+P5: A D7 | Cm7 C#m7 Dm7 D#m7 | Em7 Fm7 F#m7 B7 | E |
+
+P6: E E6(9) |
+
+PartA: $P1 $P2
+PartB: $P3 $P4 $P3 $P5
+
+S[E, 2/2]: $PartA $PartB $P1 $P6

@@ -1,0 +1,17 @@
+P0: Cm6/G | Gm | Cm6/G | Gm |
+
+P1: Cm6/G | Gm | Cm6/G | Gm | D#m6/F# B7 | Fo | Cm7 F7(b9) | Fm6/Ab G7(b13) | C7(9) B7(b5) | Cm6/G | Gm | Cm6/G | Gm | Cm6/G | Gm | Cm6/G | Gm | D#m6/F# B7 | Bb7(4)(9) Bb7(b9) | Eb7M | Ab7(9) | G7(4)(9) G7(b9) | Cm7(b5) Em7(b5) |
+P2: Gm | Cm6/G | Gm |
+
+P3: Cm6/G | Fm6/Ab G7(b13) | Ebm6/Gb F7(b13) | Gm | Cm6/G | Gm | D#M6/F# B7 | Bb7M(#5) | D#m6/F# B7 | Cm7 F7(b9) | Fm6/Ab G7(b13) | C7(9) B7(b5) | Bb6 G7(b13) | C7(9) B7(b5) | Bb6 G7(b13) | C7(9) B7(b5) | E7M(#11) |
+
+P4: Fm7(b5) Bb7(b13) | Gb7M(6) Cb7M(#11) | Abm7 Db7(9) | Gbo | Abm6/Cb Bm6/D | Ebm7(9) Ebm/Db | Abm6/Cb Bm6/D | Bbm7(b5) Eb7(b9) | Abm7(b5) Db7(b9) | Dbm7(11) C7(b5) | Cb6 Cbm6 | Bbm7(b5) Eb7(b9) | Abm7/b5 Db7(b9) | Ebm6/Bb | Fm7(b5) Bb7(b9) |
+
+P5: Gm
+
+Intro: $P0 $P0
+PartA: $P1 $P2
+PartB: $P3
+PartC[Gb]: $P4
+
+S[Gm, 2/2]: $Intro $PartA $PartB $Intro $Intro $P1 $P5

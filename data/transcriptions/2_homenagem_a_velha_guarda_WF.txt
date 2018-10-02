@@ -1,0 +1,16 @@
+P0: F | Eb7 | Db7 | C7 | |
+
+P1: F | | F(#5) | | Gm | C7 | F | Bbm Eb7 | Ab | | Ab(#5) | | Bbm | Eb7 | Ab Cm/G | Ebm6/Gb F7 | Bbm | Eb7/G | Ab | Fm | Bbm | Eb7 | Gm7(11) | C7 |
+P2: F | Gm7 C7 |
+P3: F | A7 |
+
+P4: Dm A7(#5)/C# | Dm/C Bm7(b5) | Gm/Bb D7/A | Gm | A7/C# | Bb7 | A7 | A7 Cm | D7/F# | .  D7 | Gm |  . Gm6 | Dm Dm/C | E7/B A7 |
+P5: Dm | A7 |
+P6: Dm Db7 | Gm C7 |
+
+P7: F/C | Bbm/Db | F | C7 F |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Dm]: $P4 $P5 $P4 $P6
+
+S[F, 2/4]: $P0 $PartA $PartB $P1 $P7

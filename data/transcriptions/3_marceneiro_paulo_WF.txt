@@ -1,0 +1,9 @@
+P1: A7(b13) | Dm | Bb7 | Eb7M | Em7(b5) A7 | Dm | Am E7 | A7 | Em7(b5) A7(b13) | Dm | Bb7 | Eb7M | Em7(b5) A7 | Dm | Am E7 | A7 |
+P2: Em7(b5) A7 | Dm | C#o | Dm/C Bm7(b5) | Gm A7 | Go Dm/F | Bb6 | Dbo | Em7(b5) A7 |
+P3: Dm |
+P4: Dm . . Bm7(b5) |
+
+PartA: $P1
+PartB: $P2 $P3 $P2 $P4
+
+S[Dm, 2/4]: $PartA $PartB $PartA $P2 $P4

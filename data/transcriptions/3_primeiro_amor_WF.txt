@@ -1,0 +1,16 @@
+P0: NC |
+
+P1: D | | A7 | | | | D | | | | A7 | | | | D |
+P2: D |
+
+P3: F#7 | | Bm | | F#7 | | Bm | | F#7 | | Bm | | F#7 | | Bm |
+P4: Bm |
+
+P5: G | | Am | | D7 | | G | | | | Am | | D7 | | G |
+P6: G |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[Bm]: $P3 $P4 $P3 $P4
+PartC[G]: $P5 $P6 $P5 $P6
+
+S[D, 3/4]: $P0 $PartA $PartB $P1 $P2 $PartC $P1 $P2

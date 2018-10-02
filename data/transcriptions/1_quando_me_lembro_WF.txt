@@ -1,0 +1,20 @@
+P0: NC | NC | NC NC NC Gm Dm A7/C# |
+
+P1: Dm | Dm/C | E7/B | E7 | Gm6 | A7 | Dm | Dm/F | | | A7 | | | | Dm | A7 | Dm | Dm/C | E7/B | E7 | Gm6 | A7 | Cm6/Eb | D7 | Gm | Em7(b5) | Dm/F | Dm/C | Gm6/Bb | A7 | Dm |
+P2: Dm |
+
+P3: A7 | A/G | Dm/F | Dm | Cm6/Eb | D7 | Gm | | | Em7(b5) | Dm/F | Dm/C | E7/B | E7 | A7/C# | A7 |
+P4: Dm/C | Bb7 | A7 | Dm | |
+
+P5: D | | F#7/A# | | B/A | | Em/G | | Em | | D/F# | D |
+P6: Em | E7 | A7/C# | |
+P7: Em7 | A7 | D | D Bb7 A7 |
+
+P8: Dm | | | | | | A7 | | | | | | | | Dm | | | | | | D7 | | Gm | | | Gm6 | Dm | | A7 | | Dm | |
+
+PartA: $P1 $P2 $P1 $P2
+PartB: $P3 $P3 $P4
+PartC[D]: $P5 $P6 $P5 $P7
+PartD: $P8 $P8 $P2
+
+S[Dm, 3/4]: $P0 $PartA $PartB $PartC $PartD $P0 $P2

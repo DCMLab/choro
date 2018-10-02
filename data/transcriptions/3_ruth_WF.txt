@@ -1,0 +1,23 @@
+P0: NC |
+
+P1: Cm(add9) | Fm6/C | Cm(add9) |
+P2: Cm | Cm(add9) | | Fm6/C | | Fm6/C | | | | | | Cm(add9) | Fm6/C |
+P3: Cm | Gm7(11) | C7 | Db/F | Fm | | G7(b13) | Cm(add9) | | | G7(b13) |
+
+P4: Fm6/C | Cm(add9) |
+
+P5: B7(4)(13) | | Eb7M(#5) | Eb7M(6) | Cm | |
+P6: G7(b9) | | Dm7(b5) | G F/A A#o | G/B | G7 | | | Eb7M(9) | Cm |
+P7: Db/C | | Db/F | | Eb7M(6) | | Dm7(b5) | G7(b13) | Fm6/C | G7 |
+
+P8: Cm G7 |
+
+P9: C | F/C | C | F/C |
+P10: C | | G7 | | Dm | A7(b13) | Dm | A7(b13) | Dm | G7(#5) | C | G7(4) . G7 |
+P11: C7 | | F | | F/A | Fm6/Ab | C/G | Gb7(#11) | F | G7 | Ab/C | G7 |
+
+PartA: $P1 $P2 $P1 $P3
+PartB: $P5 $P6 $P5 $P7
+PartC[C]: $P9 $P10 $P9 $P11
+
+S[Cm, 3/4]: $P0 $PartA $P4 $PartB $PartA $P8 $PartC $PartA $P4

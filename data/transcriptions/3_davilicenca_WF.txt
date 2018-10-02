@@ -1,0 +1,7 @@
+P1: C7 | | Bo | | Am7 Am6 | Am7 Am6 | Gm7 Gm6 | Gm7 Gm6 | F7M | B7 | C | A7 | Dm7(9) G7(13) | G#o(b13) G7(13) | C | E7(b9) |
+P2: Am7 | Dm7 | G7 | C | | G/B | F/A | Em | Dm | C C7 | F D7/F# | G E7 | Am7 | B7 | Em |
+
+PartA: $P1
+PartB: $P2
+
+S[C, 2/4]: $PartA $PartB $PartA

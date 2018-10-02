@@ -1,0 +1,12 @@
+P0: NC |
+P1: Am(7M) | Am/G | Dm | E7 | Am(7M) | Am/G | Am | Dm | | G7 | C | E7 | Am | Am/G | Dm6/F | E7(4) E7 | Am(7M) | Am/G | Dm | E7 | Am(7M) | Am/G | Am | Dm | | E7 | Am | Dm | F7 | E7(b13) | Am E7(4) E7 |
+P2: Am |
+
+P3: Dm G7 | C | E7 | Am | Dm . G7 | C | E7 | Am |
+P4[4/4]: Am |
+P5[3/4]: A/G | Dm/F | E7 | Am | |
+
+PartA: $P1 $P2
+PartB: $P3 $P4
+
+S[Am, 3/4]: $P0 $PartA $PartB $P1 $P5

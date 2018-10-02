@@ -1,0 +1,24 @@
+P1: A E/G# | Go E E E | A E/G# | Go E/G# | Go | E/G# |
+P2: F#m7 Go | E/G# | B7 |
+P3: E B7/D# | C#m G#7 | NC | Fo | Bo | Go | NC | Em7 A7 | D | G#o | . G | F#7 B7 |
+P4: E B7 B7 B7 |
+P5: E E |
+
+P6: A A/G | D/F# Dm/F | D/F# C#/E# | F#m B7 |
+P7: E B7/F# | Go E/G# | NC | | A E7/B | Co A/C# | NC | NC A |
+P8[3/4]: A#o B7 B7/D# |
+
+P9: E |
+
+P10: G | | G C |
+P11: G/B Am | G#o | NC | Do C |
+P12: G/B Am | G#o | NC | A D | A/C# Bm | A#o | NC | B7 C | | B7 C B7 C | | B7 C B7 C B7 C B7 C | |
+P13[1/4]: B7 |
+
+P14: NC | Ao | NC | B7 B/A | E/G# Go | NC | NC | E |
+
+PartA: $P1 $P2 $P3 $P4 $P3 $P5
+PartB: $P6 $P7 $P8 $P7 $P8
+PartC: $P10 $P11 $P11 $P12 $P13
+
+S[E, 2/4]: $PartA $PartB $P1 $P2 $P3 $P4 $P3 $P9 $PartC $P1 $P14

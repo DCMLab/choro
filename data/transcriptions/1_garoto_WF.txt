@@ -1,0 +1,11 @@
+P0: Fm7(9) Fm7(6) | Bbm7(9) Bbm7(6) | Fm7(9) Fm7(6) | Bbm7(9) Bbm7(6) |
+P1: Bbm7(9) Eb7(13) | Ab7M Ab6 | Db7(9) | C7(9)(#11) | Fm7(9) Fm7(6) | Bbm7(9) Bbm7(6) | Fm7(9) Fm7(6) | Bbm7(9) Bbm7(6) | Bbm7(9) Eb7(13) | Ab7M Ab6 | Db7(9) C7 | Fm6(9) |
+
+P2: Ab(add9) | Dbm6/Ab | Ab(add9) | Dbm6/Ab | Ab(add9) | Ab/C E7/B | Bbm | Ebo/Bb | Bbm | Em(b6)/Bb | Bbm | Em(b6)/Bb | Bbm6 | Fm7(9) Bb7(13) | G7(#11) Gb7(#11) |
+
+P3: Fm7(9) Fm7(#5) | Bbm7(9) Bbm(#5) | Fm7(9) Fm7(#5) | Bbm7(9) Bbm7(#5) | Bbm7(9) Eb7(13) | Ab7M Ab6 | Db7(9) C7 | Fm6(9) |
+
+PartA: $P1
+PartB[Ab]: $P2
+
+S[Fm, 2/4]: $P0 $PartA $PartB $P0 $PartA $PartB $P3

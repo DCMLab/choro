@@ -1,0 +1,10 @@
+P0: NC |
+P1: A7 | Dm | A7 | D7 | Gm | Dm | A7 | Dm | A7 | Dm | A7 | D7 | Gm | Dm | A7 |
+P2: Dm |
+
+P3: Gm6 | A7 | Dm | | | A7 | Gm6 A7 | Dm | D7 | | | Gm | | Dm | A7 | D7 | Gm | Dm | A7 |
+
+PartA: $P1 $P2 $P1 $P2
+PartB: $P3 $P2 $P3 $P2
+
+S[Dm, 2/4]: $P0 $PartA $PartB $P1 $P2

@@ -1,0 +1,13 @@
+P0: C/E Ebo | Dm7 G/F | C/E Ebo | Dm7 G/F | Gm7 C7 | F/A Fm/Ab | C/E D7 | G7(4) G7 |
+
+P1: C/E Ebo | Dm7 G/F | C/E Ebo | Dm7 G/F | C/E Ebo | Dm7 G/F | C/E Ebo | Bm7(b5) E7 | Am Am/G | F#m7(b5) B7 | Em7(b5) A7 | D7/F# G/F | C/E Ebo | Dm7 G/F | Em7(b5) |
+P2: A7 | D7 | Fm6/Ab | Em7 A7 | D7(9) G7(13) | Em7(b5) A7 | D7(9) G7(13) | Em7(b5) A7(b9) | D7(9) G7(13) | C6(9) |
+P3: A7(b9) | A7 | D7 | Fm6/Ab | Em7 A7 | D7(9) G7(13) | Em7(b5) A7 | D7(9) G7(13) | Em7(b5) A7(b9) | D7(9) G7(13) | C6(9) |
+
+P4: C/E Ebo | Dm7 G/F | C/E Ebo | Dm7 G/F | Gm7 C7 | F/A Fm/Ab | C/E D7/F# | G7(4) G7 |
+
+Intro: $P0 $P0
+PartA: $P1 $P2 $P1 $P3
+Fadeout: $P4 $P4
+
+S[C, 2/4]: $Intro $PartA $Fadeout

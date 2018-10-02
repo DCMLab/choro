@@ -1,0 +1,12 @@
+P1: Fm | Bbm | F#7(13) C7(b9) | Fm Db7 | Cm7(9) | Cm/Bb | D7/Bb D7/A | Db7/Ab C7/G | Fm | Bbm Bbm(#5) | F#7(9) C7(b9) | Fm Db7M(9) | Go/F | Ab7M(6) | Gb7(4)(13) C7/G |
+P2: Fm |
+
+P3: Bbm6 | F6/C | Dm7(11) | Bm7(11) E7 | Dm7 Dm6 | Db7M(6) | Am/C | Fm6(7M) | Bbm6 | F7M/C | D7(4)(9) . Ab7(#11) G7(#11) | Bb7(#11) | Dm7 Dm6 | Db7M(6) | Dm7(11) | C7(4)(b9) | Dm7(11) | C7(4)(b9) | D7(4) G7/D |
+
+P4: G#m6 | C#7(9) | B6 | A7(#11) | E7M(9)/G# G7M(#11) | Em6 | Em(7M)(9)/B | Bbo(11)(b13) | G#m | Em/G | G#/F# | C/Bb |
+
+PartA: $P1 $P2 $P1 $P2
+PartB: $P3
+PartC[G#m]: $P4
+
+S[Fm, 2/4]: $PartA $PartB $P1 $P2 $PartC $P1 $P2

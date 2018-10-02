@@ -1,0 +1,22 @@
+P0: NC |
+
+P1: Gm | Cm | D7 | Gm | Gm Em7(b5) | Dm | A7 | D7 | Gm | Cm | D7 | Gm G7 | Cm | Gm | D7 |
+P2: Gm D7 . . |
+P3: Gm |
+
+P4: F7 | Bb | F7/C | Bb/D | F7 | Bb | A7 | Dm | F7 | Bb | F7/C | Bb/D | Eb | Bb G7 | Cm F7 |
+P5: Bb |
+P6: Bb D7 . . |
+
+P7: Gm F7 |
+
+P8: Bb . A7 Ab7 | G7 | Cm G7/D | Cm/Eb C7/E | F7 | | Bb | | Fm6/Ab | G7 | Cm | Em6/Gb | Bb G7 | C7 F7 |
+P9: Bb | F7 |
+
+P10: Gm | Gm | Cm | D7 | Gm |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Bb]: $P4 $P5 $P4 $P6
+PartC[Bb]: $P8 $P9 $P8 $P6
+
+S[Gm, 2/4]: $P0 $PartA $PartB $P1 $P7 $PartC $P1 $P10

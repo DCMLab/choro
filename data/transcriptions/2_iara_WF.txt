@@ -1,0 +1,14 @@
+P1: Am | Dm | E7 | Am | Dm | Am/C | E7/B |
+P2: Am |
+
+P3: G7 | C | E7/G# | Am | Dm/F | C | G7 |
+P4: C |
+P5: C G7 C E7 |
+
+P6: A F#m | Bm7 E7 | Am . C7 F7 | E7 | A A#o | Bm Dm/F | A . B7 E7 | A
+
+PartA: $P1 $P2 $P1 $P2
+PartB[C]: $P3 $P4 $P3 $P5
+PartC[A]: $P6 $P6
+
+S[Am, 2/2]: $PartA $PartB $P1 $P2 $PartC $PartA

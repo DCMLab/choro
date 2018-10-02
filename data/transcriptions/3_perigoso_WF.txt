@@ -1,0 +1,13 @@
+P0: G Em7 | Am7 D7 | G Em7 | Am7 . C#7 D7 . . . . |
+
+P1: G Em7 | Am7 D7 | G Eb7(9) | Am7(11) Ab7(#11) | Dm7 Db7(9)(#11) | C6(9) | Bm7(b5) E7 | Am D(#5) | G Em7 | Am7 D7 | G G7(#5) | C6(9) | Cm6 F7 | Bm7 E7 | Am7 D7 |
+P2: G D7(4)(9) |
+P3: G |
+
+P4: Am7 B7 | Em | Dm7 G7 | C E7 | Am Cm6 | G | A7 | D7 | Am7 B7 | Em | Dm7 G7 | C E7 | Am Cm6 | G/B Em7 | Am7 D7 |
+P5: G D7(4)(9) |
+
+PartA: $P1 $P2 $P1 $P3
+PartB: $P4 $P3 $P4 $P5
+
+S[G, 2/4]: $P0 $PartA $PartB $P1 $P3

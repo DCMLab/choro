@@ -1,0 +1,19 @@
+P0: G7(9) | | Gb7(9) | | F7(9) | | C7(#5) | | F | F7(9) E7(9) Eb7(9) . | D7(9) | G7(9) Gb7(9) | F |
+
+P1: F/A | Gm7 C7 | F F/A | Gm Gm7 | A7 | Dm6 | G7(9) | C7 | F F/A | Gm7 C7 | F F/A | Gm | Cm7 B7(9) | Bb Eb7(9) | Am7 Ab7 Gm7 Gb7 |
+P2: F C7 |
+P3: F A7 |
+
+P4: Dm | Bbm6 | Dm | Bbm6 | D7(9) | G7 C7 | F F7 | Bb7 | A7 | Dm | Bbm6 | Dm | Bbm6 | D7(9) | G7 C7 | F7 Eb7(9) | Dm . Bb7 A7 |
+P5: Dm A7 |
+P6: Dm Db7 C7 Gb7 |
+
+P7: F Eb6(9) | Ab7(9) Bb7 C7 . | Fm7 Ab7 | Eb7(9) |
+
+P8: Ab/C | Bbm7 Eb7 | Ab/C | Bbm Bm7 | C7 | Fm7 . . A7 | Bb7 . . E7(9) | Eb7(9) . . A7 | Ab Ab/C | Bbm7 Eb7 | Ab/C | Bbm7 A7 | Ab7 D7(9) | Db Gb7 | Cm7 B7 Bbm7 A7 | Ab | Bbm7(9) | A6(9) | Ab7(#11) | |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Dm]: $P4 $P5 $P4 $P6
+PartC[Ab]: $P8
+
+S[F, 2/4]: $P0 $PartA $PartB $P7 $PartC

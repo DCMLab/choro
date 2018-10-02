@@ -1,0 +1,23 @@
+P1: E7 | A Co | E7/B | A | C#7/E# | F#m | B7 | E7 Co | E7/B | A Co | E7/B | A | A7 | F | E7 |
+P2: A Co |
+P3: A C#7(b13) |
+
+P4: F#m | C#7/G# | F#7/A# | Bm | Bm G#m7 | F#m | G#7 | C#7 D7 | C#7 C#/B | F#m/A D7 | C#7 C#/B | F#7/A# | Bm G#m7(b5) | F#m/A F#m | G#7 C#7 |
+P5: F#m |
+P6: F#m Co |
+
+P7: A A7 |
+
+P8: D B7 | Em7 | A7 | D | D Bm | F# D#7 | G#7 C#7 | F#7 F#7/A# | Bm F#7/C# | Bm/D B7/D# | Em B7/F# | Em/G | G#o | D/A Bm7 | Em7 A7 |
+P9: D A7 |
+P10: D Co |
+
+P11: E7/B | A Co | E7/B | A Co |
+
+
+PartA: $P1 $P2 $P1 $P3
+PartB[F#m]: $P4 $P5 $P4 $P6
+PartC[D]: $P8 $P9 $P8 $P10
+Fadeout: $P11 $P11
+
+S[A, 2/4]: $PartA $PartB $P1 $P7 $PartC $P1 $P2 $Fadeout

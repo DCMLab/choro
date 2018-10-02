@@ -1,0 +1,11 @@
+P1: Gm | Cm6 | Gm/Bb | Cm6 | Bb | F7 | Bb | D7 | Gm | G/F | C7/E | C7 | F7 | | Bb | Cm Gm D7 | Gm | Cm6 | Gm/Bb | Cm6 | Bb | F7 | Bb | | Ab | Ab/Gb | Gm | Gm/F | Eb7 | D7 |
+P2: Gm . Gb7 | F7 |
+
+P3: Bb | G7 | C7(9) | F7 | Bb | G7 | Cm | F7 | Gm | D7/F# | Dm7(b5) | G7 | Cm | | Ebm6/Gb | F7 | Bb | G7 | C7(9) | F7 | Bb | G7 | Cm | | Ebm6/Gb  | | Bb | G7 | C7(9) | F7 | Bb | NC |
+
+P4: Gm F Eb | Gm |
+
+PartA: $P1 $P2
+PartB[Bb]: $P3
+
+S[Gm, 3/4]: $PartA $PartB $P1 $P4

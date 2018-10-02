@@ -1,0 +1,18 @@
+P0: F7(9) Bb7(9) | Eb7(9) Ab7(9) | Db7(9) C7(9) | F Eb7(9) D7(9) .  |
+
+P1: G E7(b13) | Am7 | D7(9) | G7M | Go | Am7 | D7(9) | G7M G6 | Cm7 F7(13) | Bb7M Bb6 | Bbm7 Eb7(9) | Ab7M | G7 | C6(9) | Bm7(b5) E7(b9) | C#o Am | F7(9) Bb7(9) | Eb7(9) Ab7(9) | Db7(9) C7(9) |
+P2: F Eb7(9) D7(9) .  |
+P3: F |
+
+P4: Ebm7 Ab7 | Db7M Eo | Ebm7 Ab7 | Db7M | Gbm7 |
+P5[Em]: Am7 |
+P6[Gm]: Cm7 |
+P7[Bbm]: Ebm7 |
+P8[Em]:  F7M |
+
+P9: F7 Bb7 | Eb7 Ab7 | Db7 C7 | F7 F |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Bbm]: $P4 $P5 $P6 $P7 $P8
+
+S[G, 2/4]: $P0 $PartA $PartB $P1 $P9

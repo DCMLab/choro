@@ -1,0 +1,16 @@
+P0: G6 | | | | | | | | | | | | | | | | | | | | | | | |
+P1: G | | Bm Bm(#5) | Bm6 | G7 | | C7 | | F7 | Bb7 | Eb | A7 | D7 |
+P2: D7 | G | |
+P3: D7 |
+P4: G | |
+
+P5: A7 | | A(#5) | | D F#7/C# | Bm7 B/A | Em7/G B7/F# | Em7 | . G7 G#7 A7 | Bb7 | Eb | | G7 | | Cm | | A7 | | D | D/C | G/B | Gm/Bb | . D7 Db7 C7 | B7 | E7 | A7 |
+P6: D | |
+P7: D | D7 |
+
+P8: G | . Ab6 G6 . | G6 |
+
+PartA: $P1 $P2 $P1 $P3 $P4
+PartB[D]: $P5 $P6 $P5 $P7
+
+S[G, 2/4]: $P0 $PartA $PartB $P1 $P2 $P1 $P3 $P8

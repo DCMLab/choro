@@ -1,0 +1,20 @@
+P0: C | | G7 | |
+P1: C |
+
+P2: C | Dm | G7 | C | | G7 | |
+
+P3: C7 | F | D7 | G7/B | | C Am | D7 | G7 | | C Am | D7 | G |
+
+P4: Cm | Dm7(b5) | G7 | Cm | | Bb7 | Ab7 |
+P5: G7 |
+
+P6[C]: G7 | C Am | D7 | G7 | | C Am | D7 | G7 |
+
+P11: C | | G7 | | C | | G7 | | C | | G7 | | C |
+
+Intro: $P0 $P0
+PartA: $P2 $P1 $P2 $P3
+PartB[Cm]: $P4 $P5 $P4 $P5 $P6
+PartA2: $P2 $P1 $P2 $P0*3
+
+S[C, 2/4]: $Intro $P1 $PartA $PartB $PartA2

@@ -1,0 +1,11 @@
+P1: F#7 B7 | E | Bm6/D C#7 | F#m | A | E | F#7 | B7 | F#7 B7 | E | Bm6/D C#7 | F#m | A | E C#7 | F#m7 B7 |
+P2: E |
+
+P4: E7 | A | C#7 | F#m | Dm6 | A | Bm B7 | E7 | | A | C#7 | F#m | Dm6 | A | Bm7 E7 |
+P5: A |
+P6: A A#7 B7 . | 
+
+PartA: $P1 $P2 $P1 $P2
+PartB[A] : $P4 $P5 $P4 $P6
+
+S[E, 2/4]: $PartA $PartB $P1 $P2

@@ -1,0 +1,25 @@
+P0: NC | G7M |
+P1: D7(4)(9) | G7M | D7(4)(9) | G7M | Dm7 Db7(9)(#11) | C | | Cm7 | F7 | G7M | Em7 | Am7 | D7(4)(9) |
+P2: G7M E7 | Am7 D7 | G7M | Am7 | Bm7 | Am7 | G7M | Dm7 Db7(9)(#11) | C | | Cm7 | F7 | Bm7 | Em7 | Am7 | D7 |
+P3: Dm7 | G7(13) |
+
+P4: C | C(#5) | Dm7 | G7 | C | C(#5) | Dm7 | G7 | Fm/Eb | Bb7 | Eb7M | |
+P5: Am7(b5) | D7 | G7M  E7 | Eb7(9) D7(9) |
+P6: Am7(b5) | D7(#9) | C A7(b13) | Dm7 A7(13) | G7M G6 |
+
+P7: Dm7 | G7 |
+
+P8: C | A7 | Dm7 | G7 | Dm7 | G7 | C | | | Gm7 Gb7(#11) | F | Fm Em | Dm7 | G7 |
+P9: Db7(9) |
+P10: Db7(9) | G7M G6 . . |
+
+P11: C#m7(b5) | Cm7 | Bm7 | Bb7(#11) | Am7 |
+P12: D(#5) | Dm7 | G7(#5) |
+P13: D(#5) D7 | D7 | G G7M(b5) |
+
+PartA: $P0 $P1 $P2 $P3
+PartB[C]: $P4 $P5 $P4 $P6
+PartC: $P8 $P9 $P8 $P10
+Coda: $P11 $P12 $P11 $P13
+
+S[G, 2/4]: $PartA $PartB $P1 $P7 $PartC $P1 $P2 $Coda

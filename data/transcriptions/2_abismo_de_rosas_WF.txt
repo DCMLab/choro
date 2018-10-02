@@ -1,0 +1,12 @@
+P1: A | Ao(7M) | A | | | A#o | E7/B | E7 | Bm | Bm6 | E7 | | E/D | E7 | Co | A/C# E7 | A | Ao(7M) | A | | A7 | | D | | Dm | | A | | E7 | | A |
+P2: A |
+
+P3: Am | Am/G | Dm/F | Dm | E7 | | Am | Am E7 | Am | | E7 | Dm/F | Bm7(b5) | | Am | | | Am7 | Dm7 | Dm6 | E | E7 | Am | | A7 | | Dm | Bm7(b5) | Am | E7 | Am | |
+
+P4: D | A7 | D | D F#7 | Bm | F#7 | Bm | Bm/A | G | G#o | D/A | D | E7 | | A7 | A7(#5) | D | A7 | D | D F#7 | Bm | F#7 | Bm | Bm/A | G | G#o | D/A | Bm7 | E7 | A7 | D | E7 |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[Am]: $P3
+PartC[D]: $P4
+
+S[A, 3/4]:  $PartA $PartB $P1 $P2 $PartC $P1 $P2

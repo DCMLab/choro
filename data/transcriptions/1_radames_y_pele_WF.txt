@@ -1,0 +1,16 @@
+P1: NC | Fm7(9) | Dbm7(9) C7 | Fm7(9) | Bb7(13) C7(b9) | Fm7(9) | Fm7(b6)(9) | F7(b9)(b13) | |
+P2: Bb7 | Eb7(9) | Ab6 | Db7(9) | Gb7M | C7 | Fm(7M)(9) . Fm7(9) Fm6(9) |
+P3: Bb7(9)(13) | Eb7(9) | Ab6 | Db7(9) | Gb7M | C7 | Fm(7M)(9) . Fm7(9) Fm6(9) |
+P4[1/4]: NC |
+P5[Gm, 2/4]: Db7M | Ab7M | Eb7M | Bb7M |
+
+P6: Am7(b5) | D7(b9) | Gm(add9) | Gm(add9)/F | Cm7(9)(11) | F7(9)(13) | Bb7M(9) | Eb7M(9) Eb7(9) | A7(#9)(13) | D7(#9) D7(b9) | Gm(7M) Gm | Gm/F | Eo | Eb6(9) D7(b9) |
+P7[Bm]: G7M(9) G6(9) | G7M(9) G6(9) | C6(#11) | C7M(#11) | Bm7 | | C6(#11) | C7M(#11) | Bm7 | |
+P8[Gm]: Cm7(9) | F7(9) | Bb7M | Eb7M(9) | A7(b9)(13) | D7(#9) D7(b9) | Gm(add9) | Gm(add9)/F | Eo | Ebm6(9) D7(b9) | Gm(add9) |
+
+P9: C7(b9) | F7M(9) | |
+
+PartA: $P1 $P2 $P1 $P3 $P4 $P5
+PartB[Gm]: $P6 $P7 $P8
+
+S[Fm, 2/4]: $PartA $PartB $P1 $P2 $P9

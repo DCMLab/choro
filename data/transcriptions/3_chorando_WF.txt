@@ -1,0 +1,17 @@
+P0: NC |
+P1: NC | D7(9) Cm7 | Bm7 | E7/G# | Gm6 A7 | Dm Bm7(b5) | Am | F#m7 B7 | Bm7 E7 | Dm7 G7(9) | C7M(6) C7M | G#o | Go | Dm/F Bb7(9) |
+P2: Am Am/G | F#o | Fm6 |
+P3: Am Am/G | F#o E7/G# |
+
+P4: Am F#7 |
+
+P5: G7 | C7M(6) C7M | E7(b9) | Go A7 | F#m7(b5) Fm6 |
+P6: C/E | D7/F# | G7(9) . . F#7 |
+P7: C/E Ebo | Dm7 G7(13) | C |
+
+P8: Am |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[C]: $P5 $P6 $P5 $P7
+
+S[Am, 2/4]: $P0 $PartA $P4 $PartB $PartA $P8

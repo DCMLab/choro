@@ -1,0 +1,17 @@
+P0: F |
+P1: Gm7 C7 | F | Gm7 C7 | F | Gm7 C7 | F | Gm7 C7 | F |
+
+P2: F7 | Bb | Bbm6 | F | Dm | Gm7 | C7 | F | F7 | Bb | Bm6 | F | Dm | Gm7 | C7 |
+P3: F A7 |
+
+P4: Dm A7/E | Dm/F | D7 | Gm | Em7(b5) | Dm/F | E7 | A7 | Dm A7/E | Dm/F | D7 | Gm | Em7(b5) | Dm | E7 A7 |
+P5: Dm A7(b13) |
+P6: Dm |
+
+P7: F | Bbm6 C7 | F |
+
+PartA: $P0 $P1
+PartB: $P2 $P3
+PartC[Dm]: $P4 $P5 $P4 $P6
+
+S[F, 2/4]: $PartA $PartB $PartC $P1 $P2 $P7

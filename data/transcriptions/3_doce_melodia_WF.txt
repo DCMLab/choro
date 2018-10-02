@@ -1,0 +1,14 @@
+P0: NC |
+
+P1: Eb Fm | Gm Fm/Ab | Eb/Bb | Eb7 | Ab Bbm | Cm Bbm | Ab | | Fm7 | Bb7 | Eb6(9) | Eb7(9) | Ab7M | Gm Fm | Eb | Eb7 |
+
+P2: Fm Fm(7M) | Fm7 Bb7 | Eb7M | Eb7(9) | Fm Fm(7M) | Fm7 Bb7 | Eb7M | Eb7(9) | Ab6 | Db7(9) | Eb Fm | Gm Eb7(9) | Ab7M |
+P3: Gm Fm | Eb | Bb7 |
+
+P4: Gm Fm | Eb | Ab7 | Eb6(9) |
+
+
+PartA: $P1
+PartB: $P2 $P3
+
+S[Eb, 2/4]: $P0 $PartA $PartB $PartA $P2 $P4

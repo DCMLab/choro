@@ -1,0 +1,14 @@
+P1: Cm Cm/Bb | Gb7M G7(b13) | Abm6 Cm7M | Ab7(13) G7(b13) | E7M Do | Cm/Eb B7M/F# | Abm6/F G/Ab | B7M . G7(9) G/F | Cm Cm/Bb | Gb7M G7(b13) | Abm6 Cm(7M)/Eb | Ab7(13) G7(b13) | Eo Eo7M | Fm/Ab Fb/Eb | Ab7M(#11) G7(b9)(b13) |
+P2: Dm7(b5) G7(b13) Cm . |
+
+P3: Eb7M | Ab7M(9) | Bb7(9) Eb7M/D | Em7(b5) . F7(4) F7 | Ab7M D7(b9) | Gm7M/Bb . Cm7M/Eb Co | Db6/F Bbm7 | Eb G7(b13) | Eb7M | Ab7M(9) | Bb7(9) Eb7M/D | Em7(b5) . F7(4) F7 | Ab7M/C Ebo7M/Bb | Gbo Eb7M/Bb | F7(9)(13) Bb7(#5) | Eb G7(b13) |
+
+P4: C7M/E | Ebo | Dm(7M) | Abm6 G7(b13) | Em7(b5) | A7(b9)(b13) | A7(b9)(13) G7(b9)(13) | F7(b9)(13) G7(b9)(13) | Fm6/Ab | Bo | C/E | A/G |
+P5: D7/F# | Db7/F | C Db D | Eb6 |
+P6: D7(9) | Db7(9) | Eb7M(#5) | Fm6/Ab F#7(13) G7(b9)(b13) | G7(b9)(b13) | G7(b9)(b13) |
+
+PartA: $P1 $P2
+PartB[Eb]: $P3
+PartC[C, 3/8]: $P4 $P5 $P4 $P6
+
+S[Cm, 2/4]: $PartA $PartB $PartA $PartC $PartA

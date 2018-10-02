@@ -1,0 +1,7 @@
+P1: F6(9) | Gb7(13) | Gm7(11) | A7(b13) | Dm7 | Dm/C | Am7(b5) | D7(b13) | G7M(9) | | D7/A# | | Go | Em7(b5) | F7M(6) | Db7M(6) Dbm6(7M) | F6(9) | Gb7(13) | Gm7(11) | A7(b13) | Dm7 | G7(#11) | A7(13) | D7(b9) | Bb6 | E7(b9) | F6(9) | Fo E7/G# | G(add9) | C7(9) | F7M |
+P2: Db/Cb |
+P3: Db/Cb | F(add9) | F7M(#11)
+
+PartA: $P1 $P2 $P1 $P3
+
+S[F, 3/4]: $PartA

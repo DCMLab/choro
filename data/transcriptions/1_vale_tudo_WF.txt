@@ -1,0 +1,20 @@
+P0: A |
+P1: Bm | E7 | A | A Co | Bm | E7 | A | A Co | Bm | E7 |
+
+P2: Bm | E7 | A | | Bm | E7 | A | Em/G F#7 | Bm | Dm/F E7 | A | Em/G F#7 | Bm | Dm/F E7 |
+P3: A | |
+P4: A | A Co | Bm | E7 | A | | Bm | E7 | A | |
+
+P5: A Co | Bm | E7 | A | A Co | Bm | E7 | A | A Co | Bm | E7 | A | A Co | Bm | E7 |
+
+P6: A Co | Bm | E7 | A | | Bm | E7
+P7: A | | Bm | E7 | A |
+P8: A | Bm | E7 |
+P9: A | Bm | E7 | A |
+
+PartA: $P1 $P0 $P0 $P1 $P2 $P0
+PartB: $P2 $P3 $P2 $P4
+PartC: $P5 $P0 $P5 $P0
+PartD: $P6 $P0 $P6 $P7 $P8 $P0 $P8 $P0 $P9 $P9
+
+S[A, 2/4]: $P0 $PartA $PartB $P1 $P0 $PartC $PartD

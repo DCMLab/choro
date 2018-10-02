@@ -1,0 +1,15 @@
+P0: NC | | |
+
+P1: NC | | | Em | G Gm/Bb | D/A | E7 | A7 |
+P2: D | Em7 A7 | Bm7 E7 | A |
+
+P3: A7 Eo/A | D | A7 | D7(4) D7 | G | Em7 | A7 | D | D7 | A#o G/B | A7 | D | D7 | A#o G/B | A7 |
+P4: D |
+
+P5: A7(4)(9) | Bb/A | A7 | D | A7(4)(9) | Bb/A | A7 | D A7 | D |
+
+PartA: $P1 $P1 $P2
+PartB: $P3 $P4 $P3 $P4
+PartC: $P5
+
+S[D, 2/4]: $P0 $PartA $PartB $PartC

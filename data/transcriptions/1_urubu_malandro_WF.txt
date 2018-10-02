@@ -1,0 +1,15 @@
+P1: F | | | Gm | | C7 | | F | | | | Gm | | C7 | | F |
+
+P2: C7 | F | C7 | F | C7 | F | C7 |
+P3: F |
+
+P5: C7 | F | C7 |
+
+P8: Bb Bbm | F Dm | Gm C7 |
+
+PartA: $P1
+PartB: $P2 $P3 $P2 $P3
+Impro: $P5 $P3 $P5 $P3
+PartC: $P8 $P3 $P8 $P3
+
+S[F, 2/4]: $PartA $PartB $Impro $PartC $PartA

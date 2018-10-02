@@ -1,0 +1,12 @@
+P0: Dm | A7 |
+P1: D7 | Gm | C7 | F | Gm | Dm | A7 | Cm6/Eb D7 | Gm | Dm | E7 A7 |
+P2[D]: D | A7 | D | A7 |
+
+P3: D | F#7/A# | B/A | Em | Em/G G#o | A7 | A/G | D/F# | D | F#7/A# | B/A | Em | Em/G G#o | D/A B7 | Em7 A7 |
+P4: D |
+
+Intro: $P0*5
+PartA: $P0*14 $P1 $P0*3 $P0*14 $P1 $P2
+PartB: $P3 $P4 $P3 $P0*3
+
+S[Dm, 2/4]: $Intro $PartA $PartB $P0*14 $P1 $P2

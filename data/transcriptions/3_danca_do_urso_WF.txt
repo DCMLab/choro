@@ -1,0 +1,15 @@
+P1: C/E Ebo | Dm G7 | C/E Ebo | Dm G7 | E7/G# | Am Am/G | D7/F# | G7 | C Ebo | Dm G7 | C/E Ebo | Dm G7 | E7/G# | Am F | C G7 |
+P2: C |
+
+P3: D7 D/C | G/B | D7 | G | E7 | Am | F#7 | Bm | D7 D/C | G/B | D7 | G | G7 G/F | C/E Bbo | G D7 |
+P4: G |
+P5: G G7 |
+
+P6: F | Gm | C7 C/Bb | F/A | F Bm7(b5) | C | G7 | C7 | F | Gm | A7/C# | Dm | Bb Bo | F/C D7 | Gm C7 |
+P7: F |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[G]: $P3 $P4 $P3 $P5
+PartC[F]: $P6 $P7 $P6 $P7
+
+S[C, 2/4]: $PartA $PartB $P1 $P2 $PartC $P1 $P2

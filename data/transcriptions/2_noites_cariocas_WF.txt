@@ -1,0 +1,16 @@
+P0: NC |
+P1: G | | Bbo | D7 | G | E7 | Am E7 | Am | Am Am(7M) | Am7 | Am6 Am | D7 | | | G Em | Am D7 | G | | Bbo | D7 | G | E7 | Am E7 | Am | C | Bbo | G7 . F#7 F7 | E7 | A7 | D7 | G |
+P2: G |
+
+P4: G7 | | C | | A7 | | Dm | | F | D#o | C/G E7/G# | Am B7 | E C#m | F#m B7 | E | G7 | | | C | | A7 | | Dm A7 | Dm | F | B7 | E7 | A7 | Dm | G7 |
+P5: C | |
+P6: C C#7 | D7 |
+
+P7: C#o | Bbo | . G F#7 F7 | E7 | A7 | D7 |
+P8: G | |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[C]: $P4 $P5 $P4 $P6
+PartC: $P7 $P8 $P7 $P8
+
+S[G, 2/4]: $P0 $PartA $PartB $P1 $P2 $PartC

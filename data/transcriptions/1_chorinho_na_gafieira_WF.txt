@@ -1,0 +1,9 @@
+P1: C/E | Ebo | Dm7 | G7(13) | C/E | Ebo | Dm7 | G7 | Gm(add9) | C7(9) | F7M F6 | F7M F6 | D7(9) | | G7(13) | G7(b13) | C/E | Ebo | Dm7 | G7(13) | C/E | Ebo | Dm7 | G7(13) | Gm(add9) | C7(9) | F6 | Fm6 | C6(9) A7(b9) | Dm7(9) G7(13) | C |
+P2: C7M |
+
+P3: E7 | | Am7 | | A7 | | Dm7 | | E7(9) | | Am7 | | D7(9) | | G7(13) | E7(b5) A7 | Dm7 | G7(13) | C/E | A7 | Dm7 | G7(13) | Em7 | A7(b9) | Dm7 | Fm6 | Em7 | Ebm7 | Dm7 | G7(13) | C6(9) | G G7(#5) . . |
+
+PartA: $P1 $P2
+PartB: $P3
+
+S[C, 2/4]: $PartA $PartB $P1

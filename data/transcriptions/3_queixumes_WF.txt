@@ -1,0 +1,14 @@
+P0: A7(b9)(b13) | D7(9) | G7(b9)(b13) |
+
+P1: C | | Ebo | | C | | Gm6 | A7 | Dm | G7 | C E7 | A7 | Dm F#7 | B7 | Em Ebm | Dm7 G7 | C | | Co | | C | | Gm6 | A7 | Dm | G7 | C C/Bb | A7 | Dm | D7 G7 |
+P2: C | E7 |
+
+P3: Am | | F | F7 | Bb | | E7 | | Am | B7 | Bb7 | A7 | Ab7 | G7 | C | E7 | A | | F#o | | Am | A7 | Dm | Dm A7 | F | E7 | Am | | F7 | E7 | Am D7 | G7 |
+
+P4[6/8]: C C/Bb | F7 Bb7 | Eb A7 | D7 G7 | C |
+
+
+PartA: $P1 $P2
+PartB[Am]: $P3
+
+S[C, 2/4]: $P0 $PartA $PartB $P1 $P4

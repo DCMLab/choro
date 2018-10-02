@@ -1,0 +1,14 @@
+P1: Am Am(add9)/G | Bm7(b5) E7 | Bm7(b5) E7 | Am(add9) Am |
+P2: A7 | Dm7(9) Dm | B7 B7(b9) | Dm6 E7(b9) |
+P3: A7 A7(b9) | F(#11) Bm7(b5) | Am/C . B7(b9) E7 |
+
+P4: Am E7 |
+
+P5: A F#m | Bm Bm/A | E7(4) E7 | A E7 | A F#m | C#m C#m6 | G#7 | C#m7(9) E7 | A | A# | Bm7 E7 | Em7 A7 | D7(9) G7 | C7(9) F7 | Bb7(9) E7 | A E7(b13) |
+
+P6: Am Am6 | Dm6 | Am6 | Am7M(6) | |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[A]: $P5
+
+S[Am, 2/2]: $PartA $P4 $PartB $PartA $P6

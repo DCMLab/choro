@@ -1,0 +1,22 @@
+P1: D F#7/C# | Bm Bm/A | E7/G# Bm6/F# | E7 | Em | A7 | D | E7 A7 | D F#7 | Bm/F# Dm6/F | A/E | A/C# Co | Bm | E7 | Em/B | Gm6/Bb A7 | D F#7/C# | Bm Bm/A | E7/G# | E7 | F#7 | F#7 | Am | B7 | Em | Gm6 | D/F# | Fo | Em | E7 A7 | D |
+
+P2: D |
+
+P3: C#7 | F#7 | Bm | | C#m7(b5) | F#7 | Am7 | B7 | Em | C#m7(b5) |
+P4: Bm | | C#7 | | F#7 | |
+P5: Bm | G7 | C | F#7 | Bm Bb7 | A7(#5) |
+
+P6: D |
+
+P7: D/A G#o | D7/A Bbo | G/B | G/B Bbo | Am |
+P8: D7 | G | | D7/A G#o | D7/A Bbo | G/B | Em | Bm | C#7 F#7 | Bm Bbm | Am |
+P9: D7 | Dm | G7 | C | Cm | G | E7 |
+
+P10: A7/C# | Ab7 | G | |
+
+
+PartA: $P1
+PartB[Bm]: $P3 $P4 $P3 $P5
+PartC[G]: $P7 $P8 $P7 $P9
+
+S[D, 2/4]: $PartA $P2 $PartB $PartA $P6 $PartC $P10 $P10

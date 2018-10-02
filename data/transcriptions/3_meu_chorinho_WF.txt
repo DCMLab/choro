@@ -1,0 +1,15 @@
+P0: NC | NC |
+
+P1: Dm | Dm | Eb | Eb | A7 | A7 | Dm | E7 A7 | Dm | Dm | C7 | C7 | Bb7 | Bb7 | A7 | A7 | Dm | Dm | Eb | Eb | A7 | A7 | Cm6 | D7 | Gm | C7 | F | Dm Bb7 | Eb | A7 |
+P2: Dm | Dm |
+
+P3: A7 | A7 | Dm | Dm | D7 | D7 | Cm6/Eb D7 | Gm | Bbm | C7 | F | F7 | Bbm6 | Bbm6 | F . E7 Eb7 | D7 | Db7 | C7 |
+P4: F | F
+P5: F | NC
+
+P6: Bb7 | Gm6 | D
+
+PartA: $P1 $P2
+PartB[F]: $P3 $P4 $P3 $P5
+
+S[Dm, 2/4] : $P0 $PartA $PartB $PartA $P6

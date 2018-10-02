@@ -1,0 +1,11 @@
+P1: Gm D7 | Gm G7 | Cm G7 | Cm | Cm Am7(b5) | Gm Gm/F | A7/E | D7 | Cm G7 | Cm | Gm D7 | Gm D7 | Gm D7 | Gm | Gm Ab . D7 |
+P2: Gm |
+
+P3: Cm | | Cm Eb7 | D7 | Gm | G7 | Cm/Eb | Cm | | Eb7 | D7 | | Gm | G7 | Cm/Eb | Cm | Gm | D7 |
+
+P4: NC | | | |
+
+PartA: $P1 $P2 $P1 $P2
+PartB: $P3 $P2 $P3 $P2
+
+S[Gm, 2/4]: $PartA $PartB $P4 $P1 $P2

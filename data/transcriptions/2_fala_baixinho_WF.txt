@@ -1,0 +1,11 @@
+P1: Abo | Go | F#o | Fo | Eo | Bb G7 | C7 | F7 | Abo | Go | F#o | Fo | Eo | Bb G7 | Cm F7 |
+P2: Bb |
+P3: Bb D7 |
+
+P4: Gm | Cm | D7 | Gm | G G#o | Dm/A | A7 | D7 | Gm | Cm | D7 | G7 | Cm D7 | Gm Gm/F | Cm/Eb D7 |
+P5: Gm |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Gm]: $P4 $P5 $P4 $P5
+
+S[Bb, 2/4]: $PartA $PartB $P1 $P2

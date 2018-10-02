@@ -1,0 +1,10 @@
+P0: G7 | NC | | | | | | G7 |
+P1: Cm | G7 | Cm | G7 | Cm | C7 | Fm | | G7 | | Cm | | D7 | | G7 | | Cm | G7 | Cm | G7 | Cm | C7 | Fm | | | G7 | Cm | | D7 | G7 | Cm | |
+
+P2: G7 | | Cm | | G7 | | Cm | | G7 | | Cm | | Fm/Ab | G7 | Cm |
+P3: Cm |
+
+PartA: $P1
+PartB: $P2 $P3 $P2 $P3
+
+S[Cm, 3/4]: $P0 $PartA $PartB $PartA

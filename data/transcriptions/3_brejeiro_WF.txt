@@ -1,0 +1,25 @@
+P0: G | D7 | G | D7 |
+
+P1: G | D7 | G | D7 | G | D7 | G | D7 | B7/D# | Em7 | A7 | D7 | G G/F | C/E Cm/Eb | D7 |
+P2: G |
+
+P4: D | A7 | D | A7 | D | F#m | C#7 | F#m A7 | D | A7 | D | A7 | F#7 | Bm G | D A7 |
+P5: D |
+P6: D D7 |
+
+P7: G | D7 |
+P8: Gm | D7 |
+
+P9: Gm | D7 | Eb7 | D7 | Gm | D7 | Eb7 | D7 | G7/B | Cm | A7/C# | D7 | Gm G/F | Cm/Eb | D7 |
+P10: Gm |
+P11: Gm F7 |
+
+P12: Bb | F7 | Bb | F7 | Bb | Dm | A7 | Dm F7 | Bb | F7 | Bb | F7 | D7 | Gm Eb | Bb F7 | Bb D7 |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[D]: $P4 $P5 $P4 $P6
+PartC[Gm]: $P9 $P10 $P9 $P11
+PartD[Bb]: $P12
+Fadeout: $P0 $P0
+
+S[G, 2/4]: $P0 $PartA $PartB $P7 $P8 $PartC $PartD $P0 $P1 $P2 $Fadeout

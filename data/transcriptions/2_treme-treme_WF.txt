@@ -1,0 +1,16 @@
+P0: NC |
+
+P1: G7 | C | G7 | C | Gm6/Bb A7 | Dm | G7 | C | G7 | C | G7 | C | Gm6/Bb A7 | Dm | G7 |
+P2: C |
+
+P3: D7 | G | E7 | Am | Cm6 | G | A7 | D7 | | G | E7 | Am | Cm6 | G E7(9) | Am D7 |
+P4: G |
+
+P5: C7 | F | A7 | D7 | Bbm6 | F | G7 | C7(9) | | F | A7 | D7 | Bbm6 | F D7 | G7 C7 |
+P6: F |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[G]: $P3 $P4 $P3 $P4
+PartC[F]: $P5 $P6 $P5 $P6
+
+S[C, 2/4]: $PartA $PartB $P1 $P2 $PartC $P1 $P2

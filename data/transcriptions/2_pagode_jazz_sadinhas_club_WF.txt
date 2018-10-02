@@ -1,0 +1,17 @@
+P0: Cm7 | | Ab7(b13) | | F7(13) | | G7(#9) | |
+
+P1: Cm(7M) | Am7(b5) Abm6 | Cm(7M) | Am7(b5) Am6 | Cm7 | Ab7(4)(9) | Cm7(9) | D7(#9) G7(b13) |
+P2: Cm7(9) | |
+
+P3: B7M | | A# | | B/A | | G#o |
+P4: G#o |
+
+P6: Cm7 | | Ab7(b13) | | F7(13) | |
+P7: G7(#9) | |
+P8: G7(#9) | . Cm7 |
+
+PartA: $P1 $P1
+PartB[B]: $P3 $P4 $P3 $P4
+Coda: $P6 $P7 $P6 $P8
+
+S[Cm, 2/4]: $P0 $P0 $PartA $P2 $PartB $P0 $P0 $PartA $P2 $PartB $Coda

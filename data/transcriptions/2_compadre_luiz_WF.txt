@@ -1,0 +1,10 @@
+P1: F#o | Gm | G7(b9) | Cm G7(b9) | Cm D7(b9) | Gm | C#o Eo | Ebo | G7 | C7 | F7 | Bb | Am7(b5) D7 | Gm Cm | Gm D7 |
+P2: Gm |
+
+P3: F F/Eb | Bb/D C#o | Cm7 F7 | Bb | Am7(b5) D7 | Gm A7 | D A7 | D7 | G7 | C7 | F7 | Bb | Am(b5) D7 | Gm Eb | Bb G7 Cm7 F7 |
+P4: Bb |
+
+PartA: $P1 $P2 $P1 $P2
+PartB[Bb]: $P3 $P4 $P3 $P4
+
+S[Gm, 2/4]: $PartA $PartB $P1 $P2

@@ -1,0 +1,9 @@
+P1: Em | Em/D | Am6 | Am | B7 | Am | Em | B7(b9) | Em | C#m7(b5) | Bm/D | Bm | Gm6 | F#7 | Am6/C | B7 | Em | Em/D | Am6 | Am | B7 | Am6 | E7/G# | E7 | Am | F#m7(b5) | Em/G | Em | F#7(b9) Am6/C | B7 | Em |
+P2: Em |
+
+P3: B7/D# | B7(b13) | Ao/E | Em | E7 | E7(b13) | Fo/A | Am | | F#m7(b5) | Em(#5) | Em/D | F#7/C# | Am6/C | B7 | Am6 | B7 | B7(b13) | Ao/E | Em | E7 | E7(b13) | Fo/A | Am | | F#m7(b5) | Em(#5) | Em | F#7(b9) | B7 | Em | |
+
+PartA: $P1 $P2
+PartB: $P3
+
+S[Em, 3/4]: $PartA $PartB $P1 $P2

@@ -1,0 +1,10 @@
+P1: Em/G | Co . B7 | Em | | Am/C | E7/B | Am | | F#m7(b5) | Am6/E | Em | Em/D |
+P2: F#7/C# | | B7 | |
+P3: Am6/C | B7 | Em | |
+
+P4: E | B7 | E | | C#m7 | B7/D# | E | C#m7 | C#m/B A#o | Ao | C#m/G# | C#m | D#7 | | G#7 | B7 | E | B7 | E | | C#m7 | B7/D# | E | E/D | A/C# | Am/C | E/B | Bbo | E/B | | B7 | Em |
+
+PartA: $P1 $P2 $P1 $P3
+PartB[E]: $P4
+
+S[Em, 3/4]: $PartA $PartB $P1 $P3

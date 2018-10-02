@@ -1,0 +1,16 @@
+P1: Am Am(7M) | Am7 Am6 | Dm7 G7(13) | C7M Am | Dm Dm(7M) | Dm7 G7 | C7M | E7(b13) | Am E7/A | Em7 A7(9) | Dm7 G7 | C7M F#7 |
+P2[Bm]: Bm F#7 | B7(b9) B7 | Em(add9) A7 | D7M(9) F#7 | Bm G#o | Bm Fo | F#m Fo | Em F#7 | Bm Bm(7M) | Bm7 E7/B | Am Am(7M) | D7(4)(9) D7(9) | G7M | Cm6 |
+
+P3[Em]: Em B7/D# | Dm6 Db7(9) | C7M(6) B7 | Em7 A7 |
+P4[Dm]: Dm A7/C# | Cm6 B7 | Bb7M A7 | Dm7 G7 |
+P5[C]: C C7M | C7 C6(9) |
+P6[3/4]: Fm6/C C Cm(7M)(#11) |
+P7[2/4]: Dm G7 | C7M | Gb7(#11) |
+
+P8: F7M Fm6 | C/E Am(add9) | D7(9) G7(4)(13) | C Gb7(#11) | F7M Fm6 | Em7 Am7 | D7(9) G7(4)(13) | C Gb7(#9) | F7M F#o | C/G D7(9)(#11) | Dm7 . G7(4)(9) G7(9) | C | |
+
+PartA: $P1 $P2
+PartB: $P3 $P4 $P5 $P6 $P7
+PartC[C]: $P8
+
+S[Am, 2/4]: $PartA $PartB $PartC

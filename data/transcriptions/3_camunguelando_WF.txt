@@ -1,0 +1,18 @@
+P1: C | | B7 | | Bb6 | | A7 | | Dm | G7 | C | A7 | Dm | G7 |
+P2: C Am | Dm G7 |
+P3: C | E7 |
+
+P4: Am | | E7 | | Gm6/Bb | A7 | Dm | | | Ebo | Am | Am6 |
+P5: B7 | | F7 | E7 |
+P6: B7 | E7 | Am Ab7 | G7 |
+
+P7: C |
+
+P8: C | D7/F# | G/F | C/E |
+
+
+PartA: $P1 $P2 $P1 $P3
+PartB[Am]: $P4 $P5 $P4 $P6
+Fadeout: $P8 $P8
+
+S[C, 2/4]: $PartA $PartB $P1 $P7 $Fadeout
