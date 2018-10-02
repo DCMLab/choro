@@ -14,7 +14,7 @@ The impetus of digital musicology and computational music analysis in recent yea
 
 ## Data Description
 
-The data is stored in `choro.csv`. It contains the following columns:
+The data from all transcriptions is stored in `\data\choro.csv`. The individual transcriptions can be found in the `\data\transcriptions` folder. It contains the following columns:
 
 **KEY AND METER**
 - `global_key`: global key per piece (e.g. `F`, `Dm`)
