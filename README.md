@@ -1,7 +1,7 @@
 # Harmony and Form in Brazilian Choro: A Data-Driven Approach to Musical Style Analysis
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1442765.svg)](https://doi.org/10.5281/zenodo.1442765)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3881347.svg)](https://doi.org/10.5281/zenodo.3881347)
+ 
 This project is one of the corpus projects conducted at the [Digital and Cognitive Musicology Lab (DCML)](http://dcml.epfl.ch/) at EPFL, Lausanne, Switzerland. For any questions regarding this project contact Fabian C. Moss (fabian.moss@epfl.ch) or Willian Fernandes Souza (willianfersou@yahoo.com.br).
 
 ## Abstract
