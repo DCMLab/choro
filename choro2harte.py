@@ -2,12 +2,13 @@ import numpy as np
 import pandas as pd
 import re
 
+
 def parse_extensions(extensions):
-    ext = ",".join([ 
+    ext = ",".join([
         e
-        .replace("omit", "*") \
-        .strip("(").strip(")") \
-        for e in re.findall(r'\(.*?\)', extensions) 
+        .replace("omit", "*")
+        .strip("(").strip(")")
+        for e in re.findall(r'\(.*?\)', extensions)
     ])
     return f"({ext})"
 
@@ -39,7 +40,7 @@ def choro2harte(chord, type="root"):
     else:
         # ROOT
         harte += chord.root if type == "root" else chord.sd
-        
+
         # TYPE
         if chord.type == "m":
             if chord.added == "7":
@@ -66,15 +67,15 @@ def choro2harte(chord, type="root"):
 
         # SPECIFIC SHORTHANDS
         harte = harte.replace("min7(b5)", "hdim7") \
-                .replace("maj(#5)", "aug") \
-                .replace("maj7(9)", "maj9") \
-                .replace(":7(9)", ":9") \
-                .replace("min(7M)", "minmaj7") \
-                .replace("add9", "9") \
-                .replace("min7(9)", "min9") \
-                .replace("(9,7M)", "(7,9)") \
-                .replace("dim(7M)", "dim(7)")
-        
+            .replace("maj(#5)", "aug") \
+            .replace("maj7(9)", "maj9") \
+            .replace(":7(9)", ":9") \
+            .replace("min(7M)", "minmaj7") \
+            .replace("add9", "9") \
+            .replace("min7(9)", "min9") \
+            .replace("(9,7M)", "(7,9)") \
+            .replace("dim(7M)", "dim(7)")
+
         # BASS
         if chord.bass_note is not np.nan:
             harte += "/" + chord.bass_note
@@ -83,7 +84,7 @@ def choro2harte(chord, type="root"):
 
 
 if __name__ == "__main__":
-    
+
     # read data
     df = pd.read_csv("data/choro.tsv", sep="\t", index_col=0)
 
@@ -92,10 +93,13 @@ if __name__ == "__main__":
     df["rn_harte"] = df.apply(lambda x: choro2harte(x, type="rn"), axis=1)
 
     # sort columns
-    df = df[['global_key', 'local_key', 'global_meter', 'local_meter', 'local_mode',
-       'global_mode', 'path', 'phrase', 'part', 'bar_no', 'duration', 'chord', 'harte',
-       'root', 'rn_chord', 'rn_harte', 'sd', 'type', 'added', 'extensions', 'bass_note',
-       'songbook', 'title', 'composer', 'sub_genre', 'year', 'filename' ]]
-    
+    df = df[[
+        'global_key', 'local_key', 'global_meter', 'local_meter',
+        'local_mode', 'global_mode', 'path', 'phrase', 'part', 'bar_no',
+        'duration', 'chord', 'harte', 'root', 'rn_chord', 'rn_harte', 'sd',
+        'type', 'added', 'extensions', 'bass_note', 'songbook', 'title',
+        'composer', 'sub_genre', 'year', 'filename'
+       ]]
+
     # export to file
     df.to_csv("data/choro.tsv", sep="\t", index=False)
