@@ -14,16 +14,16 @@ def parse_extensions(extensions):
 
 
 def choro2harte(chord, type="root"):
-    """Transforms chord symbols in Choro Songbook Corpus format to 
-    Harte et al's chord syntax. See Harte, C. A., Sandler, M., 
-    Abdallah, S., & Gómez, E. (2005). Symbolic representation of 
-    musical chords: A proposed syntax for text annotations. 
-    Proceedings of the 4th International Conference on Music Information 
+    """Transforms chord symbols in Choro Songbook Corpus format to
+    Harte et al's chord syntax. See Harte, C. A., Sandler, M.,
+    Abdallah, S., & Gómez, E. (2005). Symbolic representation of
+    musical chords: A proposed syntax for text annotations.
+    Proceedings of the 4th International Conference on Music Information
     Retrieval (ISMIR), 56, 66--71.
 
     Parameters
     ----------
-    chord : str 
+    chord : str
         Chord symbol as encoded in the _Choro Songbook Corpus_.
 
     Returns
@@ -47,7 +47,7 @@ def choro2harte(chord, type="root"):
                 harte += ":min7"
             elif chord.added == "6":
                 harte += ":min6"
-            else: 
+            else:
                 harte += ":min"
         elif chord.type == "o":
             harte += ":dim"
