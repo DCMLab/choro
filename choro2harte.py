@@ -66,7 +66,8 @@ def choro2harte(chord, type="root"):
             harte += parse_extensions(chord.extensions)
 
         # SPECIFIC SHORTHANDS
-        harte = harte.replace("min7(b5)", "hdim7") \
+        harte = harte \
+            .replace("min7(b5)", "hdim7") \
             .replace("maj(#5)", "aug") \
             .replace("maj7(9)", "maj9") \
             .replace(":7(9)", ":9") \
@@ -74,13 +75,55 @@ def choro2harte(chord, type="root"):
             .replace("add9", "9") \
             .replace("min7(9)", "min9") \
             .replace("(9,7M)", "(7,9)") \
-            .replace("dim(7M)", "dim(7)")
+            .replace("dim(7M)", "dim(7)") \
+            .replace("min6(7M)", "min6(7)")
 
         # BASS
         if chord.bass_note is not np.nan:
-            harte += "/" + chord.bass_note
+            bass_degree = chord.rn_chord.split("/")[1]
+            degree, accidental = re.match(r"(\d*)([#b]*)",
+                                          bass_degree).groups()
+            # COVER SOME CASES
+            if chord.type == "m" and degree == "3" and accidental == "":
+                degree = "b3"
+            elif chord.type is np.nan and degree == "3" and accidental == "#":
+                accidental = ""
+                degree = "3"
+            elif chord.type == "m" and degree == "7" and accidental == "":
+                accidental = "b"
+            elif chord.type is np.nan and degree == "7" and accidental == "":
+                accidental = "b"
+            elif chord.type is np.nan and degree == "5" and accidental == "#":
+                accidental = ""
+            elif chord.type == "m" and degree == "5" and accidental == "#":
+                accidental = ""
+            harte += "/" + accidental + degree
 
     return harte
+
+
+def test():
+    # read data
+    df = pd.read_csv("data/choro.tsv", sep="\t", index_col=0)
+
+    # create new column
+    df["harte"] = df.apply(lambda x: choro2harte(x, type="root"), axis=1)
+    df["rn_harte"] = df.apply(lambda x: choro2harte(x, type="rn"), axis=1)
+
+    # sort columns
+    # df = df[[
+    #     'global_key', 'local_key', 'global_meter', 'local_meter',
+    #     'local_mode', 'global_mode', 'path', 'phrase', 'part', 'bar_no',
+    #     'duration', 'chord', 'harte', 'root', 'rn_chord', 'rn_harte', 'sd',
+    #     'type', 'added', 'extensions', 'bass_note', 'songbook', 'title',
+    #     'composer', 'sub_genre', 'year', 'filename'
+    #    ]]
+
+    # filter only with bass notes
+    df = df[df["bass_note"].notna()]
+
+    print(df[['chord', 'harte', 'root', 'rn_chord',
+              'rn_harte', 'sd', 'bass_note']].sample(15))
 
 
 if __name__ == "__main__":
