@@ -13,7 +13,7 @@ def parse_extensions(extensions):
     return f"({ext})"
 
 
-def choro2harte(chord, type="root"):
+def choro2harte(chord: str, type: str = "root") -> str:
     """Transforms chord symbols in Choro Songbook Corpus format to
     Harte et al's chord syntax. See Harte, C. A., Sandler, M.,
     Abdallah, S., & Gómez, E. (2005). Symbolic representation of
@@ -104,20 +104,11 @@ def choro2harte(chord, type="root"):
 
 def test():
     # read data
-    df = pd.read_csv("data/choro.tsv", sep="\t", index_col=0)
+    df = pd.read_csv("data/choro.tsv", sep="\t")
 
     # create new column
     df["harte"] = df.apply(lambda x: choro2harte(x, type="root"), axis=1)
     df["rn_harte"] = df.apply(lambda x: choro2harte(x, type="rn"), axis=1)
-
-    # sort columns
-    # df = df[[
-    #     'global_key', 'local_key', 'global_meter', 'local_meter',
-    #     'local_mode', 'global_mode', 'path', 'phrase', 'part', 'bar_no',
-    #     'duration', 'chord', 'harte', 'root', 'rn_chord', 'rn_harte', 'sd',
-    #     'type', 'added', 'extensions', 'bass_note', 'songbook', 'title',
-    #     'composer', 'sub_genre', 'year', 'filename'
-    #    ]]
 
     # filter only with bass notes
     df = df[df["bass_note"].notna()]
@@ -129,7 +120,7 @@ def test():
 if __name__ == "__main__":
 
     # read data
-    df = pd.read_csv("data/choro.tsv", sep="\t", index_col=0)
+    df = pd.read_csv("data/choro.tsv", sep="\t")
 
     # create new column
     df["harte"] = df.apply(lambda x: choro2harte(x, type="root"), axis=1)
@@ -142,7 +133,8 @@ if __name__ == "__main__":
         'duration', 'chord', 'harte', 'root', 'rn_chord', 'rn_harte', 'sd',
         'type', 'added', 'extensions', 'bass_note', 'songbook', 'title',
         'composer', 'sub_genre', 'year', 'filename'
-       ]]
+    ]]
 
     # export to file
     df.to_csv("data/choro.tsv", sep="\t", index=False)
+    print(df.head())
